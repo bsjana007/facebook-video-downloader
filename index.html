@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./fb-downloader.avif" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Facebook Video Download</title>
+  </head>
+  <body>
+    <div class="header">
+      <img class="logo" src="./fb-downloader.avif" alt="logo" />
+      <p class="headertext">FB Downloader</p>
+    </div>
+    <div class="main">
+      <div class="main-header">
+        <h1>Facebook Video Downloader</h1>
+      </div>
+      <div class="header-text">
+        <p>Download Reels, Video Online</p>
+      </div>
+      <div class="form-input">
+        <form action="" class="search-from">
+          <div class="search-from-field">
+            <label for="search-from-input" class="search-form_label">
+              <input
+                type="text"
+                name=""
+                id="search-from-input"
+                class="search-from_input"
+                placeholder="Insert Your Link Here"
+              />
+            </label>
+            <div class="search-from-clipbiard">
+              <button
+                type="button"
+                class="search-from_clipboard-paste"
+                onclick="toggleButtons()"
+              >
+                Paste
+              </button>
+              <button
+                type="button"
+                class="clipboard-clear"
+                style="display: none"
+                onclick="clearInputAndToggle()"
+              >
+                Clear
+              </button>
+            </div>
+          </div>
+
+          <button type="submit" class="search-from_button">Download</button>
+        </form>
+      </div>
+      <div class="warning-div">
+        <p class="warning-text">After Clicking Download Please Wait a While</p>
+      </div>
+    </div>
+    <div class="loadingtext">
+      <p class="loading-text">Please Wait.Your content is loading....</p>
+    </div>
+    <div class="download-div">
+      <div class="outer-result-div">
+        <div class="result-div"></div>
+      </div>
+      <div class="inner-div">
+        <!-- <div class="flex-div"> -->
+        <a id="download-btn" href="#">
+          <button class="btn">Download High Quality</button>
+        </a>
+        <a id="downloadlow-btn" href="#">
+          <button class="btn">Download low Quality</button>
+        </a>
+        <!-- </div> -->
+      </div>
+    </div>
+
+    <div class="content">
+      <div class="how-title">
+        <h3>How to save from Facebook with FB Downloader</h3>
+      </div>
+      <div class="note">
+        <b>Note:</b>
+        The FB video or photo which you will download must be from a public
+        Facebook account.
+      </div>
+      <div class="steps">
+        <div class="step">
+          <b class="step-label">Step 1</b>
+          <p>Copy the URL of Facebook Photos and Videos</p>
+          <b>On Facebook App:</b>
+          <p>
+            Click on the share button and hit the copy link Button. The link
+            will be saved to your Clipboard.
+          </p>
+          <b>On the PC/Mac: </b>
+          <p>
+            Click on the share button under the post then click "Copy Link".
+          </p>
+          <p>
+            <img
+              src="./copy-link-fb.png"
+              alt="hoe-to-download-from-Inatagram"
+            />
+          </p>
+          <div class="step">
+            <b class="step-label">Step 2</b>
+            <p>
+              Paste the URL into the FB Downloader Website- FB Downloader in the
+              text area above.
+            </p>
+          </div>
+          <div class="step">
+            <b class="step-label">Step 3</b>
+            <p>Hit the "Download" buttton for Facebook Video Download.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-link">
+      <div class="row">
+        <div class="col-1">
+          <b>Tools</b>
+          <ul class="list-unstyled">
+            <li><a href="#">Facebook Video Download</a></li>
+            <li><a href="#">Facebook Reels Download</a></li>
+            <li><a href="#">Facebook Photos Download</a></li>
+          </ul>
+        </div>
+        <div class="col-1">
+          <b>Support</b>
+          <ul class="list-unstyled">
+            <li>
+              <a href="https://www.instagram.com/bsjana_07/">Instagram</a>
+            </li>
+
+            <li><a href="https://x.com/bsjana_07">X</a></li>
+            <li><a href="https://github.com/bsjana007/">Github</a></li>
+          </ul>
+        </div>
+        <div class="col-1">
+          <b>Legal</b>
+          <ul class="list-unstyled">
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="devloper-credit">
+      <p>Devloped By : B S Jana</p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
