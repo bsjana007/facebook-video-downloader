@@ -21,7 +21,7 @@ A simple and efficient tool for downloading videos from Facebook. This project a
 
 1. Enter the Facebook video URL when prompted.
 
-2. Select the desired resolution (if multiple options are available).
+2. Select the desired quality (if multiple options are available).
 
 3. The video will be downloaded to the specified folder in your project directory.
 
@@ -30,11 +30,10 @@ A simple and efficient tool for downloading videos from Facebook. This project a
 ```bash
 Enter the Facebook video URL: https://www.facebook.com/example/video
 Available resolutions:
-1. HD (720p)
-2. SD (480p)
-Choose resolution (1/2): 1
+1. High Quality (720p)
+2. Low Quality (480p)
 Downloading...
-Download complete! File saved as: ./downloads/fbdownloader.mp4
+Download complete! File saved as: ./fbdownloader.mp4
 ```
 
 ## File Structure
