@@ -134,7 +134,7 @@ subBtn.addEventListener("click", (evt) => {
   xhr.open("GET", apiUrl);
   xhr.setRequestHeader(
     "x-rapidapi-key",
-    "92a574cfd3mshc466fbf6339b994p17b570jsn0cbe43124be1"
+    "X-RapidAPI-Key" // change this with your API key
   );
   xhr.setRequestHeader(
     "x-rapidapi-host",
