@@ -14,7 +14,7 @@ A simple and efficient tool for downloading videos from Facebook. This project a
 ## Installation
 
 1. Go to [RapidAPI](https://rapidapi.com) and sign up for an account.
-2. Visit the [Facebook Reel and Video Downloader API Playground](https://rapidapi.com/vikas5914/api/facebook-reel-and-video-downloader/playground/apiendpoint_a9e8b919-ab57-4e1a-be16-1a3137ce7a96).
+2. Visit the [Facebook Reel and Video Downloader API Playground](https://rapidapi.com/vikas5914/api/facebook-reel-and-video-downloader/playground/apiendpoint_a9e8b919-ab57-4e1a-be16-1a3137ce7a96) and subscribe the API.
 3. Get your `X-RapidAPI-Key` from the API dashboard.
 
 ## Usage
